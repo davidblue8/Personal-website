@@ -3,14 +3,13 @@
     <head>
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
         <metadata charset="UTF-8">
-        <title>Portfolio</title>
+        <title>About David</title>
         <style type="text/css">
-        
-             li{
+            li{
               float:left;
               font-family:'Raleway';
               border-style:none none solid none;
-              
+             
                 
             }
             
@@ -31,25 +30,10 @@
                 text-decoration:none;
                  
                 }
-                
-                #gallery{
-                    width:225px;
-                    float:left;
-                    
-                }
-                
-                #gallery:hover{
-                    position:fixed;
-                    width:+30%;
-                    height:auto;
-                    
-                    
-                }
-        
         </style>
     </head>
     <body>
-         <nav>
+        <nav>
             <ol>
                 <li><a href= "index.html">Home</a></li>
                 <li><a href= "portfolio.html">Portfolio</a></li>
@@ -58,32 +42,21 @@
                 <li><a href= "contact.html">contact</a></li>
             </ol>
         </nav>
-        <main>
-                <img id="gallery" src="http://s20.postimg.org/pnjvjwlnh/IMG_0206.jpg"></img>
-                <img id="gallery" src="http://s20.postimg.org/unhbrura5/IMG_0037.jpg"></img>
-                <img id="gallery" src="http://s20.postimg.org/wgk8g6cgt/IMG_0012.jpg"></img>
-                <img id="gallery" src="http://s20.postimg.org/x31863wrh/IMG_0254.jpg"></img>
-               
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        </main>
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        <h1>Contact info</h1>
+        <form action="send_form.php" method="post">
+            <textarea-wrap="hard">
+            First Name<br>
+            <input type="text" name="Firstname"/>
+            <br><br>
+            Last Name<br>
+            <input type="text" name="Lastname"/>
+            <br><br>
+            Email<br>
+            <input type="text" name="Email"/>
+            <br><br><br>
+            <textarea placeholder="Contact me..." name="message" rows="14" cols="55"></textarea>
+            <br><br>
+            <input type="submit" Value="Submit"/>
+        </form>
         
     </body>
-</html>
